@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.hero {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}
+.content {
+    display: flex;
+}
+.leftPane {
+    flex: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3em;
+    font-weight: bold;
+}
+.rightPane {
+    flex: 1;
+    padding: 20px;
+}
+.slider {
+    margin-bottom: 20px;
+}
+.range-slider {
+    width: 100%;
+}
+.slider-value {
+    font-size: 0.8em;
+    padding-left: 10px;
+}
+.slider-value.positive {
+    color: green;
+}
+.slider-value.negative {
+    color: red;
+}
+.slider-value.zero {
+    color: lightgray;
+}

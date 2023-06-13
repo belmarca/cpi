@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <div class="hero">
+            <h1>CPI Calculator</h1>
+            <h2>An interactive experiment</h2>
+        </div>
+        <div class="content">
+            <div class="leftPane">
+                <span id="cpi">0%</span>
+            </div>
+            <div class="rightPane">
+                <div class="slider">
+                    <label for="food">Food</label>
+                    <input type="range" min="-100" max="100" value="0" class="range-slider" id="food">
+                    <span class="slider-value">0%</span>
+                </div>
+                <div class="slider">
+                    <label for="shelter">Shelter</label>
+                    <input type="range" min="-100" max="100" value="0" class="range-slider" id="shelter">
+                    <span class="slider-value">0%</span>
+                </div>
+                <div class="slider">
+                    <label for="household">Household operations, furnishings and equipment</label>
+                    <input type="range" min="-100" max="100" value="0" class="range-slider" id="household">
+                    <span class="slider-value">0%</span>
+                </div>
+                <div class="slider">
+                    <label for="clothing">Clothing and footwear</label>
+                    <input type="range" min="-100" max="100" value="0" class="range-slider" id="clothing">
+                    <span class="slider-value">0%</span>
+                </div>
+                <div class="slider">
+                    <label for="transportation">Transportation</label>
+                    <input type="range" min="-100" max="100" value="0" class="range-slider" id="transportation">
+                    <span class="slider-value">0%</span>
+                </div>
+                <div class="slider">
+                    <label for="health">Health and personal care</label>
+                    <input type="range" min="-100" max="100" value="0" class="range-slider" id="health">
+                    <span class="slider-value">0%</span>
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
